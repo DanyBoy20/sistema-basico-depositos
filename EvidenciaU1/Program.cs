@@ -10,7 +10,6 @@ namespace EvidenciaU1
     // clase principal
     class Program
     {
-        // metodo principal desde donde inicia la ejecucion del programa
         static void Main(string[] args)
         {
             // instancia (objeto) de la clase CajeroAutomatico
@@ -19,11 +18,11 @@ namespace EvidenciaU1
             while (seguir) // si la variable SEGUIR es verdadera en su valor
             {
                 Console.WriteLine("CAJEROS AUTOMATICOS DHP");   // mensaje de titulo             
-                Console.WriteLine("--------Menu-----------"); // mensaje
+                Console.WriteLine("--------Menu-----------"); 
                 Console.WriteLine("1- Crear nueva cuenta"); // mensaje
                 Console.WriteLine("2- Depositar"); // mensaje
                 Console.WriteLine("3- Salir"); // mensaje
-                Console.WriteLine("-----------------------"); // es solo estetico, para darle una vista organizada, puede eliminarse sin repercutir en codigo
+                Console.WriteLine("-----------------------"); 
                 Console.WriteLine("----Elija una opcion----"); // mensaje
                 // ** int.TryPArse es la mejor manera de validar y convertir un dato a otro tipo de dato en una sola linea
                 // lo que hago aqui es leer/recibir lo que el usuario escribe con teclado y a su vez lo asigno (out)

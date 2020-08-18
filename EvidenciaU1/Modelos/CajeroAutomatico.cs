@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace EvidenciaU1.Modelos
 {
-    // CLASE CAJERO AUTOMATIVO - AQUI DEFINIREMOS LOS METODOS PARA CREAR A LOS USUARIOS Y LAS ACCIONES
-    //  DEL CAJERO AUTOMATICO: DEPOSITO
     class CajeroAutomatico
     {
         // creo una lista de tipo NumeroCuenta, que corresponde a la clase del mismo nombre
@@ -26,7 +24,7 @@ namespace EvidenciaU1.Modelos
             var cuenta = new NumeroCuenta();
             Console.Clear(); // me servira para limpiar pantalla
             Console.WriteLine("CREAR CUENTA BANCARIA"); // mensaje en pantalla
-            Console.WriteLine("---------------------"); // es solo estetico, para darle una vista organizada, puede eliminarse sin repercutir en codigo
+            Console.WriteLine("---------------------"); 
             Console.Write("Escribe su nombre: "); // mensaje pidiendo datos
             cuenta.Nombre = Console.ReadLine(); // capturo lo que el usuario escribe con teclado y lo asigno a variable Nombre
             Console.Write("Escribe tu apellido: "); // mensaje pidiendo datos
@@ -67,12 +65,12 @@ namespace EvidenciaU1.Modelos
                 {
                     Console.Write("Inserte la cantidad a depositar: "); // mensaje pidiendo datos
                     double.TryParse(Console.ReadLine(), out double saldo);
-                    Console.WriteLine("--------------------"); // es solo estetico, para darle una vista organizada, puede eliminarse sin repercutir en codigo
+                    Console.WriteLine("--------------------"); 
                     Console.WriteLine("Saldo anterior: ${0}", cuenta.SaldoActual); // mensaje mostrando el saldo anterior
                     Console.WriteLine("Deposito: ${0}", saldo);// mensaje mostrando cuanto se deposito
                     cuenta.SaldoActual += saldo; // agrego al saldo actual lo que el usuario deposito
                     Console.WriteLine("saldo actual: ${0}", cuenta.SaldoActual);// mensaje mostrando el saldo actual
-                    Console.WriteLine("--------------------"); // es solo estetico, para darle una vista organizada, puede eliminarse sin repercutir en codigo
+                    Console.WriteLine("--------------------"); 
                     Console.WriteLine(); // un espacio en blanco
                     Console.WriteLine("Presione una tecla para continuar"); // mensaje en pantalla
                     Console.ReadKey(); // espero que el usuario presione una tecla, lo ocupo solo como una breve pausa y se pueda leer la pantalla

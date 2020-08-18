@@ -9,7 +9,6 @@ namespace EvidenciaU1.Modelos
     // CLASE NUMERO DE CUENTA, NOS SERVIRA PARA LOS DATOS DE LAS CUENTAS: NOMBRE DE USUARIO, CUENTA, NIP, SALDO
     class NumeroCuenta
     {
-        // VARIABLES PARA CADA DATO EN LA CLASE
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
