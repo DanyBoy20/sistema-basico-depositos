@@ -1,0 +1,7 @@
+c:\users\dany\documents\visual studio 2017\Projects\EvidenciaU1\EvidenciaU1\obj\Debug\EvidenciaU1.csproj.CoreCompileInputs.cache
+c:\users\dany\documents\visual studio 2017\Projects\EvidenciaU1\EvidenciaU1\bin\Debug\EvidenciaU1.exe.config
+c:\users\dany\documents\visual studio 2017\Projects\EvidenciaU1\EvidenciaU1\bin\Debug\EvidenciaU1.exe
+c:\users\dany\documents\visual studio 2017\Projects\EvidenciaU1\EvidenciaU1\bin\Debug\EvidenciaU1.pdb
+c:\users\dany\documents\visual studio 2017\Projects\EvidenciaU1\EvidenciaU1\obj\Debug\EvidenciaU1.exe
+c:\users\dany\documents\visual studio 2017\Projects\EvidenciaU1\EvidenciaU1\obj\Debug\EvidenciaU1.pdb
+C:\Users\Dany\Documents\Visual Studio 2017\Projects\EvidenciaU1\EvidenciaU1\obj\Debug\EvidenciaU1.csprojAssemblyReference.cache
